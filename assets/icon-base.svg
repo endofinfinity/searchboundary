@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="SearchBoundary icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b4fd9"/>
+      <stop offset="100%" stop-color="#0ea5a4"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bg)"/>
+  <circle cx="226" cy="224" r="112" fill="none" stroke="#ffffff" stroke-width="36"/>
+  <path d="M300 300l84 84" stroke="#ffffff" stroke-width="36" stroke-linecap="round"/>
+  <path d="M154 224h144" stroke="#ffffff" stroke-width="24" stroke-linecap="round" opacity="0.95"/>
+  <path d="M226 152v144" stroke="#ffffff" stroke-width="24" stroke-linecap="round" opacity="0.95"/>
+</svg>

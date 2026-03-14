@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f5f7fb"/>
+  <rect x="80" y="48" width="1040" height="664" rx="22" fill="#ffffff" stroke="#d7e0ea"/>
+  <text x="120" y="110" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">Keyword Cloud Settings - Local Ollama Example</text>
+  <text x="120" y="150" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Local mode does not require a cloud API key. You only need a running Ollama service and an available local model.</text>
+
+  <g font-family="Arial, sans-serif">
+    <text x="120" y="215" font-size="20" font-weight="700" fill="#334155">1. LLM Provider</text>
+    <rect x="120" y="230" width="300" height="48" rx="10" fill="#eef6ff" stroke="#60a5fa"/>
+    <text x="142" y="261" font-size="18" fill="#0f172a">Ollama</text>
+
+    <text x="120" y="325" font-size="20" font-weight="700" fill="#334155">2. Endpoint</text>
+    <rect x="120" y="340" width="520" height="48" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="142" y="371" font-size="18" fill="#334155">http://127.0.0.1:11434/v1/chat/completions</text>
+
+    <text x="120" y="435" font-size="20" font-weight="700" fill="#334155">3. Model</text>
+    <rect x="120" y="450" width="320" height="48" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="142" y="481" font-size="18" fill="#334155">qwen2.5:7b-instruct</text>
+
+    <text x="500" y="435" font-size="20" font-weight="700" fill="#334155">4. API Key</text>
+    <rect x="500" y="450" width="220" height="48" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="522" y="481" font-size="18" fill="#94a3b8">Leave empty</text>
+
+    <text x="120" y="555" font-size="20" font-weight="700" fill="#334155">Terminal commands</text>
+    <rect x="120" y="575" width="760" height="92" rx="14" fill="#0f172a"/>
+    <text x="145" y="612" font-family="Menlo, monospace" font-size="20" fill="#e2e8f0">ollama serve</text>
+    <text x="145" y="645" font-family="Menlo, monospace" font-size="20" fill="#e2e8f0">ollama pull qwen2.5:7b-instruct</text>
+  </g>
+</svg>

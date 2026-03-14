@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f5f7fb"/>
+  <rect x="80" y="48" width="1040" height="664" rx="22" fill="#ffffff" stroke="#d7e0ea"/>
+  <text x="120" y="110" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">关键词云设置 - 云端 API 示例</text>
+  <text x="120" y="150" font-family="Arial, sans-serif" font-size="18" fill="#64748b">下面示意的是最常见的云端配置：选择厂商、自动填充 endpoint、填写 model 和 API Key。</text>
+
+  <g font-family="Arial, sans-serif">
+    <text x="120" y="215" font-size="20" font-weight="700" fill="#334155">1. 关键词模式</text>
+    <rect x="120" y="230" width="430" height="48" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="142" y="261" font-size="18" fill="#111827">LLM 优先（失败自动回退本地）</text>
+
+    <text x="120" y="325" font-size="20" font-weight="700" fill="#334155">2. LLM 提供方</text>
+    <rect x="120" y="340" width="430" height="48" rx="10" fill="#eef6ff" stroke="#60a5fa"/>
+    <text x="142" y="371" font-size="18" fill="#0f172a">OpenAI / DeepSeek / Groq / SiliconFlow 等</text>
+    <text x="576" y="371" font-size="16" fill="#2563eb">选择预设后会自动填 endpoint</text>
+
+    <text x="120" y="435" font-size="20" font-weight="700" fill="#334155">3. Endpoint</text>
+    <rect x="120" y="450" width="760" height="48" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="142" y="481" font-size="18" fill="#334155">https://api.openai.com/v1/chat/completions</text>
+
+    <text x="120" y="545" font-size="20" font-weight="700" fill="#334155">4. Model</text>
+    <rect x="120" y="560" width="360" height="48" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="142" y="591" font-size="18" fill="#334155">gpt-4o-mini / deepseek-chat</text>
+
+    <text x="540" y="545" font-size="20" font-weight="700" fill="#334155">5. API Key</text>
+    <rect x="540" y="560" width="340" height="48" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="562" y="591" font-size="18" fill="#334155">sk-********************************</text>
+
+    <rect x="930" y="560" width="150" height="48" rx="12" fill="#2563eb"/>
+    <text x="973" y="591" font-size="20" font-weight="700" fill="#ffffff">保存设置</text>
+  </g>
+</svg>

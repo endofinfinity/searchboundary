@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "SearchBoundary",
+  "version": "0.7.5",
+  "description": "Explore search keyword boundaries with a right-side keyword cloud panel.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.google.com/*",
+    "https://*.bing.com/*",
+    "https://www.baidu.com/*"
+  ],
+  "options_page": "src/options/options.html",
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/search*",
+        "https://*.bing.com/search*",
+        "https://*.bing.com/*?q=*",
+        "https://www.baidu.com/s*"
+      ],
+      "js": [
+        "src/content.js"
+      ],
+      "css": [
+        "src/ui/panel.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/ui/*"
+      ],
+      "matches": [
+        "https://www.google.com/*",
+        "https://*.bing.com/*",
+        "https://www.baidu.com/*"
+      ]
+    }
+  ]
+}
